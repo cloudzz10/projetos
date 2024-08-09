@@ -1,0 +1,56 @@
+body{
+color: darkslateblue;
+background: rgb(10, 10, 34);
+margin: 10px;
+font-family: "Oswald", sans-serif;
+margin-bottom: 60px;
+}
+
+header{
+border-bottom: solid 4px #060630;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.coats {
+background: #0e0e35;
+padding-bottom: 50px ;
+padding-top: 50px ;
+display: flex;
+}
+
+.titulo {
+margin-right: auto;
+}
+
+h1 {
+font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.BlueDevils{
+display: flex;
+overflow-x:auto ;
+gap: 20px; 
+}
+
+.Devils{
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+.BlueDevils img {
+opacity: 0.4 ;
+height: 200px;
+}
+
+.BlueDevils img:hover{
+    opacity: 1.0;
+    border: 2px solid white;
+}
+.Devils h2{
+    color:darkslateblue;
+}
